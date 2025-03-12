@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Make images, videos, if any, responsive */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Basic container styling for spacing */
+.container {
+  padding: 1rem;
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
